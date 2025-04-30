@@ -12,7 +12,6 @@ This makes it easy to visualize patterns based on color rather than pixels.
 1. **Prepare your environment**
     Make sure you have Python installed and install the necessary dependencies.
     ```
-    bash
     pip install opencv-python numpy
     ```
 
