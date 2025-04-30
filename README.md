@@ -11,22 +11,24 @@ This makes it easy to visualize patterns based on color rather than pixels.
 
 1. **Prepare your environment**
     Make sure you have Python installed and install the necessary dependencies.
-    '''bash
+    ```
+    bash
     pip install opencv-python numpy
+    ```
 
-2. **Run the program**
+3. **Run the program**
     Run the following command in your terminal to run the program:
-   
+    ```
     python grid_color_reduction.py <image_path> <num_columns> --output <output_image_name>
-    
+    ```
     - <image_path>: Path to the input image file.
     - <num_columns>: The number of columns in the grid.
     - <output_image_name>: The name of the output image file (optional, default is output_date_time.png).
   
     Example:
-
+    ```
     python grid_color_reduction.py example_image.png 100 --output cross_stitch_pattern.png 
-
+    ```
 
 How It Works
 1. **Image Processing**: The image is divided into a grid based on the specified number of columns. Each grid box is filled with the most common or mean color found in that section of the image.
